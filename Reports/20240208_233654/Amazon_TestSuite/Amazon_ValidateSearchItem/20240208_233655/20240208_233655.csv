@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_ValidateSearchItem,Chrome 121.0.0.0,,,08-02-2024 23:36:59,08-02-2024 23:37:42,43.468s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_ValidateSearchItems_002,Chrome 121.0.0.0,,,08-02-2024 23:36:59,08-02-2024 23:37:42,43.342s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,08-02-2024 23:36:59,08-02-2024 23:37:00,1.226s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,08-02-2024 23:37:00,08-02-2024 23:37:02,1.287s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_ValidateSearchItems_002/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561""), ""search-alias=computers"", true)",Chrome 121.0.0.0,,,08-02-2024 23:37:02,08-02-2024 23:37:18,16.138s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchItems_002/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), ""mackbook pro"")",Chrome 121.0.0.0,,,08-02-2024 23:37:18,08-02-2024 23:37:19,1.193s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchItems_002/Page_Online Shopping site in India Shop Onl_10c5f3/div_macbook pro""))",Chrome 121.0.0.0,,,08-02-2024 23:37:19,08-02-2024 23:37:25,6.398s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  macbook pro/select_All Categories        Alexa Skills  _a62561""), ""search-alias=popular"", true)",Chrome 121.0.0.0,,,08-02-2024 23:37:25,08-02-2024 23:37:32,6.551s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  macbook pro/input_field-keywords""), ""headband"")",Chrome 121.0.0.0,,,08-02-2024 23:37:32,08-02-2024 23:37:33,1.115s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  headband/select_All Categories        Alexa Skills  _a62561""), ""search-alias=software"", true)",Chrome 121.0.0.0,,,08-02-2024 23:37:33,08-02-2024 23:37:36,2.555s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  headband/input_field-keywords""), ""rasberry pi"")",Chrome 121.0.0.0,,,08-02-2024 23:37:36,08-02-2024 23:37:36,0.875s,PASSED
+"click(findTestObject(""Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  headband/span_pberry pi 4 case""))",Chrome 121.0.0.0,,,08-02-2024 23:37:36,08-02-2024 23:37:42,5.676s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,08-02-2024 23:37:42,08-02-2024 23:37:42,0.106s,PASSED

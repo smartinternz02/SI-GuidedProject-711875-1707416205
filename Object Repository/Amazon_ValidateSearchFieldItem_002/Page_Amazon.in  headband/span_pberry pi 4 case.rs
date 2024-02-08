@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_pberry pi 4 case</name>
+   <tag></tag>
+   <elementGuidId>be754795-c9c2-4714-82c4-784d7ae95d5a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.s-heavy</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='nav-flyout-searchAjax']/div[2]/div/div/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b4e13c90-a3da-4517-80c7-0fe305b214d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>s-heavy</value>
+      <webElementGuid>9331e3df-2505-4d54-91a6-a241cc755d36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>pberry pi 4 case</value>
+      <webElementGuid>f7487479-e4fa-4ef3-9daf-e7f188c0b2c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;nav-flyout-searchAjax&quot;)/div[@class=&quot;autocomplete-results-container&quot;]/div[@class=&quot;two-pane-results-container&quot;]/div[@class=&quot;left-pane-results-container&quot;]/div[1]/div[@class=&quot;s-suggestion-container&quot;]/div[@class=&quot;s-suggestion s-suggestion-ellipsis-direction&quot;]/span[@class=&quot;s-heavy&quot;]</value>
+      <webElementGuid>1715ee23-cfdf-48b6-b00b-d94cb02a75ca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='nav-flyout-searchAjax']/div[2]/div/div/div/div/div/span</value>
+      <webElementGuid>2323f48b-3981-4bb6-8e79-3c468d6e0eda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div/div/div/span</value>
+      <webElementGuid>56ed8e1c-f68b-4f73-a21f-8f99fa1ebee6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'pberry pi 4 case' or . = 'pberry pi 4 case')]</value>
+      <webElementGuid>bbeeeb20-f4ab-4e9b-9733-71fe83c19fae</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

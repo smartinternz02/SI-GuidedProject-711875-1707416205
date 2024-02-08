@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_ValidateSearchItem_002" time="46.047" tests="1" failures="0" errors="0">
+   <testsuite name="Amazon_ValidateSearchItem" tests="1" failures="0" errors="0" time="43.468" skipped="0" timestamp="08-02-2024T23:36:59" hostname="Guduri Prasanna - Prasanna" id="Test Suites/Amazon_TestSuite/Amazon_ValidateSearchItem">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Guduri Prasanna\\git\\Amazon_Test_Automation1\\Reports\\20240208_233654\\Amazon_TestSuite\\Amazon_ValidateSearchItem\\20240208_233655"/>
+         <property name="logFiles" value="C:\\Users\\Guduri Prasanna\\git\\Amazon_Test_Automation1\\Reports\\20240208_233654\\Amazon_TestSuite\\Amazon_ValidateSearchItem\\20240208_233655\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Guduri Prasanna - Prasanna"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.115"/>
+         <property name="sessionId" value="40dea6e37bb282e3dc9f9e1a52dba6ef"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Amazon/TC_Amazon_ValidateSearchItems_002" time="43.342" classname="Test Cases/Amazon/TC_Amazon_ValidateSearchItems_002" status="PASSED">
+         <system-out><![CDATA[08-02-2024T23:36:59 - [TEST_CASE][PASSED] - Test Cases/Amazon/TC_Amazon_ValidateSearchItems_002: Test Cases/Amazon/TC_Amazon_ValidateSearchItems_002
+
+08-02-2024T23:36:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-02-2024T23:36:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-02-2024T23:36:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-02-2024T23:37:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-02-2024T23:37:00 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T23:37:02 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T23:37:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Amazon_ValidateSearchItems_002/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561"), "search-alias=computers", true): All options with value 'search-alias=computers' are selected in object 'Object Repository/Amazon_ValidateSearchItems_002/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561'  using regular expression
+
+08-02-2024T23:37:18 - [MESSAGE][PASSED] - All options with value 'search-alias=computers' are selected in object 'Object Repository/Amazon_ValidateSearchItems_002/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561'  using regular expression
+
+08-02-2024T23:37:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchItems_002/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords"), "mackbook pro"): Text 'mackbook pro' is set on object 'Object Repository/Amazon_ValidateSearchItems_002/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+08-02-2024T23:37:19 - [MESSAGE][PASSED] - Text 'mackbook pro' is set on object 'Object Repository/Amazon_ValidateSearchItems_002/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+08-02-2024T23:37:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchItems_002/Page_Online Shopping site in India Shop Onl_10c5f3/div_macbook pro")): Object: 'Object Repository/Amazon_ValidateSearchItems_002/Page_Online Shopping site in India Shop Onl_10c5f3/div_macbook pro' is clicked on
+
+08-02-2024T23:37:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchItems_002/Page_Online Shopping site in India Shop Onl_10c5f3/div_macbook pro' is clicked on
+
+08-02-2024T23:37:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  macbook pro/select_All Categories        Alexa Skills  _a62561"), "search-alias=popular", true): All options with value 'search-alias=popular' are selected in object 'Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  macbook pro/select_All Categories        Alexa Skills  _a62561'  using regular expression
+
+08-02-2024T23:37:32 - [MESSAGE][PASSED] - All options with value 'search-alias=popular' are selected in object 'Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  macbook pro/select_All Categories        Alexa Skills  _a62561'  using regular expression
+
+08-02-2024T23:37:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  macbook pro/input_field-keywords"), "headband"): Text 'headband' is set on object 'Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  macbook pro/input_field-keywords'
+
+08-02-2024T23:37:33 - [MESSAGE][PASSED] - Text 'headband' is set on object 'Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  macbook pro/input_field-keywords'
+
+08-02-2024T23:37:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  headband/select_All Categories        Alexa Skills  _a62561"), "search-alias=software", true): All options with value 'search-alias=software' are selected in object 'Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  headband/select_All Categories        Alexa Skills  _a62561'  using regular expression
+
+08-02-2024T23:37:36 - [MESSAGE][PASSED] - All options with value 'search-alias=software' are selected in object 'Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  headband/select_All Categories        Alexa Skills  _a62561'  using regular expression
+
+08-02-2024T23:37:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  headband/input_field-keywords"), "rasberry pi"): Text 'rasberry pi' is set on object 'Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  headband/input_field-keywords'
+
+08-02-2024T23:37:36 - [MESSAGE][PASSED] - Text 'rasberry pi' is set on object 'Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  headband/input_field-keywords'
+
+08-02-2024T23:37:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  headband/span_pberry pi 4 case")): Object: 'Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  headband/span_pberry pi 4 case' is clicked on
+
+08-02-2024T23:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_ValidateSearchItems_002/Page_Amazon.in  headband/span_pberry pi 4 case' is clicked on
+
+08-02-2024T23:37:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-02-2024T23:37:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-02-2024T23:36:59 - [TEST_SUITE][PASSED] - Amazon_ValidateSearchItem: Test Cases/Amazon/TC_Amazon_ValidateSearchItems_002]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
